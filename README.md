@@ -4,7 +4,7 @@ This repo contains starter files for the *Shopping List App* challenge.
 In this challenge, you'll take your first stab at creating an interactive app from the ground up. Your challenge is to create an application that allows users to add, check, uncheck, and remove items from a shopping list. You'll submit your work to the grading team for feedback.
 
 Your starting point for this challenge is this GitHub repo, which you should fork. This repo contains HTML and CSS starter files for a page that looks like this:
-![blah](https://tf-curricula-prod.s3.amazonaws.com/curricula/c92a62a2-4d92-4e09-953e-1255f1e7fa19/ei-int-apps-v3/assets2/int_web_apps_event_handlers/shopping-list-screenshot.png "Lblah")
+![blah](/shopping-list-screenshot.png "Lblah")
 
 As you can see, we've intentionally gone with a minimal, underdeveloped design for this project. The reason for this is twofold. First, from a learning perspective, we want you to focus on this module's main skill: using jQuery to create an interactive web page. The HTML and CSS skeleton we've provided in the starter files allows you to get up and running quickly, without having to think about designing or writing HTML and CSS for now.
 
