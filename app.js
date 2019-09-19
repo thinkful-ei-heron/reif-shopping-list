@@ -39,11 +39,11 @@ function deleteListItem() {
 function checkListItem() {
   list.on('click', e => {
     e.preventDefault();
-    let beta = e.target.closest('li');
+    let clickTarget = e.target.closest('li');
     if (e.target.closest('button').className === 'shopping-item-toggle') {
       // console.log(e.target.closest('li'));
-      // console.log(beta.firstChild.nextSibling);
-      $(beta.firstChild.nextSibling).toggleClass('shopping-item__checked');
+      // console.log(clickTarget.firstChild.nextSibling);
+      $(clickTarget.firstChild.nextSibling).toggleClass('shopping-item__checked');
     }
   });
 }
