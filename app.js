@@ -29,7 +29,6 @@ function addListItem() {
 function deleteListItem() {
   list.on('click', e => {
     e.preventDefault();
-    // console.log(e);
     if (e.target.closest('button').className === 'shopping-item-delete') {
       console.log(e.target);
       e.target.closest('li').remove();
@@ -37,9 +36,18 @@ function deleteListItem() {
   });
 }
 
-
-// function checkListItem() {}
+function checkListItem() {
+  list.on('click', e => {
+    e.preventDefault();
+    let beta = e.target.closest('li');
+    if (e.target.closest('button').className === 'shopping-item-toggle') {
+      // console.log(e.target.closest('li'));
+      // console.log(beta.firstChild.nextSibling);
+      $(beta.firstChild.nextSibling).toggleClass('shopping-item__checked');
+    }
+  });
+}
 
 $(addListItem);
 $(deleteListItem);
-// $(checkListItem);
+$(checkListItem);
